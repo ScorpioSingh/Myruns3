@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.StartFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Input Type" />
+
+    <Spinner
+        android:id="@+id/spinnerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/AcitivityInput" />
+
+    <Spinner
+        android:id="@+id/spinnerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/grey"
+        android:padding="20dp"
+        android:text="@string/Start"
+        android:textColor="@color/black" />
+    <!--    <TextView-->
+<!--        android:id="@+id/inputType"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:text="InputType"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginTop="135dp"-->
+<!--        android:layout_marginBottom="206dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+
+<!--        android:entries="@array/types"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/activityType"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="244dp"-->
+<!--        android:text="@string/AcitivityInput"-->
+<!--        android:textStyle="bold"-->
+<!--         />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginBottom="448dp"-->
+<!--        android:contentDescription=""-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--       />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/startButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="342dp"-->
+<!--        android:text="@string/Start"-->
+<!--        android:backgroundTint="@color/grey"-->
+<!--        android:textColor="@color/black"-->
+<!--        />-->
+
+
+</LinearLayout>

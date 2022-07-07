@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/AccountName"
+        android:textColor="@color/mehndi"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailsIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AccountDetails"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/userProfile"/>
+
+    <TextView
+        android:id="@+id/userProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="0.5dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/userProfile"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/privacy"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:hint="@string/userProfile"-->
+<!--        android:text="@string/PrivacySetting"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="13dp" />-->
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PrivacySetting"
+        android:textSize="20dp"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posting your records anonymously"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="0dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/userProfile"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/Additional"
+        android:textColor="@color/mehndi"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/UnitPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Unit"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/userProfile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UnitSmall"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="0.5dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/userProfile"/>
+
+
+    <TextView
+        android:id="@+id/Comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Comments"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterComments"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="0.5dp"
+        android:textColorHint="@color/black"
+        />
+    <TextView
+        android:id="@+id/misc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/Misc"
+        android:textColor="@color/mehndi"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Webpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Web"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textColorHint="@color/black"
+       />
+
+    <TextView
+        android:id="@+id/externalLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/Link"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="0.5dp"
+        android:textColorHint="@color/black"
+        />
+
+
+
+
+
+
+<!--    <RadioGroup-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:id="@+id/gender_group_button">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/male_radio"-->
+<!--            android:layout_width="102dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:onClick="genderClick"-->
+<!--            android:text="Female" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/female_radio"-->
+<!--            android:layout_width="102dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="220dp"-->
+<!--            android:layout_marginTop="-46dp"-->
+<!--            android:onClick="genderClick"-->
+<!--            android:text="Male" />-->
+
+<!--    </RadioGroup>-->
+
+</LinearLayout>

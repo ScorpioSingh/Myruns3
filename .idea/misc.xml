@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.4438405797101449" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.257" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.2821557971014493" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/caloriesformat.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/distanceformat.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/durationformat.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.49059561128526646" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_start.xml" value="0.24087591240875914" />
+        <entry key="app/src/main/res/layout/fragment_start_fargment.xml" value="0.5770833333333333" />
+        <entry key="app/src/main/res/layout/heartrateformat.xml" value="0.30978260869565216" />
+        <entry key="app/src/main/res/layout/layout_adapter.xml" value="0.3312796993532042" />
+        <entry key="app/src/main/res/layout/manualentry.xml" value="0.3967391304347826" />
+        <entry key="app/src/main/res/layout/myruns1.xml" value="0.4008152173913043" />
+        <entry key="app/src/main/res/layout/provider_paths.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/setting_comments.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/startcomments.xml" value="0.3967391304347826" />
+        <entry key="app/src/main/res/xml/edit_dialog.xml" value="0.34375" />
+        <entry key="app/src/main/res/xml/filepath.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.13425925925925927" />
+        <entry key="app/src/main/res/xml/settingscomments.xml" value="0.34375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
